@@ -1,0 +1,12 @@
+# mod_rewrite starts here
+RewriteEngine on
+
+
+# don't apply to directories
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# check for filename with
+
+RewriteCond %{REQUEST_FILENAME}\.php -f
+
+RewriteRule ^(.*)$ $1.php [L]

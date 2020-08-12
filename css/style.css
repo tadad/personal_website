@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  letter-spacing: .75px;
+  word-spacing: 1px;
+}
+
+body {
+  height:100%;
+  margin:auto;
+}
+
+a:link {
+  color: #7EAEB2;
+}
+
+a:visited {
+  color: #6F5B7E;
+}
+
+.bg-image {
+  height:100%;
+  background-image: url('../images/background_main.png');
+  background-repeat: repeat;
+  padding: 10px
+}
+
+.nav, .content  {
+  background-color: #E6ECEA;
+}
+
+
+.nav {
+  text-align:center;
+  border:7px inset #6F5B7E;
+  margin:10px auto;
+  max-width:500px;
+  padding:10px;
+
+}
+
+.nav h1 {
+  letter-spacing: 20px;
+  margin-bottom: 10px;
+}
+
+.nav h2 {
+  letter-spacing: 20px;
+  font-weight: lighter;
+  font-size: 20px;
+  margin-top:0;
+}
+
+.nav li {
+  border:5px outset #6F5B7E;
+  margin: 5px;
+  letter-spacing: 3px;
+  padding:3px;
+}
+
+.block-list {
+  clear:both;
+}
+
+.bordered {
+  margin:auto;
+  text-align: center;
+  border: 7px inset black;
+  margin-bottom: 10px;
+  max-width:500px;
+  padding: 10px;
+}
+
+
+.content {
+  margin:auto;
+  text-align: center;
+  border: 7px inset #6F5B7E;
+  margin-bottom: 10px;
+  max-width:500px;
+  padding: 15px;
+}
+
+.footer {
+    margin:auto;
+    text-align: center;
+    max-width:500px;
+    font-size:12px;
+    background-color:transparent;
+    color: white;
+}
+
+.content h1 {
+  text-align: left;
+  font-size: 25px;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  margin-top:0;
+  letter-spacing: 10px;
+}
+
+.content h2 {
+  font-size: 18px;
+  text-align: right;
+  font-weight: normal;
+}
+
+.content h3 {
+  text-align: right;
+  font-weight:lighter;
+  font-size: 15px;
+  font-style:italic;
+}
+
+ul {
+  display:block;
+  margin:auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul li {
+  display: block;
+  width:auto;
+  float: left;
+}
+
+.back-button {
+  margin:0;
+}
+
+.hanging-indent {
+  padding-left: 22px ;
+  text-indent: -22px ;
+}
+
+li a {
+  display: block;
+  text-align: left;
+  padding: 10px;
+  text-decoration: none;
+  clear:both;
+}
+
+.table {
+  display: table;
+  margin: 0 auto;
+}
+
+p {
+  text-align: justify;
+  text-indent:15px;
+}
+
+.subtitle {
+  margin:3px;
+  font-style: italic;
+  font-size: 15px;
+}
+
+input {
+    padding: 5px;
+    width:70%;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+img {
+    border:7px outset black;
+    max-width: 100%;
+}
